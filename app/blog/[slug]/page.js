@@ -6,7 +6,7 @@ const blogDetails = ({ params }) => {
 
   if (post) {
     return (
-      <div className="container mt-20    m-auto  items-center justify-between">
+      <div className="container mt-40    m-auto  items-center justify-between">
         <div className="my-20">
           <div className="text-right mt-20">
             <Link
@@ -23,9 +23,7 @@ const blogDetails = ({ params }) => {
               alt=""
             />
             <h1 className={styles.red}>{post.title}</h1>
-            <div className="text-xs font-light">
-                    Date: {post.date}
-                  </div>
+            <div className="text-xs font-light">Date: {post.date}</div>
             <p>{post.details}</p>
           </div>
         </div>

@@ -1,8 +1,7 @@
 মডিউল ১১ এর এসাইনমেন্ট
 Assignment: Building a Simple Blog Website with Next.js 13
 
-
- 
+Assignment Link: https://module-11-jy4k.vercel.app/
 
 
 Task 1: Project Setup
