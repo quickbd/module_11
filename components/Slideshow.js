@@ -8,15 +8,15 @@ import "react-slideshow-image/dist/styles.css";
 export default function Slideshow() {
   const fadeImages = [
     {
-      url: "images/slider/bg1.jpg",
+      url: "/images/slider/bg1.jpg",
       caption: "First Slide",
     },
     {
-      url: "images/slider/bg2.jpg",
+      url: "/images/slider/bg2.jpg",
       caption: "Second Slide",
     },
     {
-      url: "images/slider/bg3.jpg",
+      url: "/images/slider/bg3.jpg",
       caption: "Third Slide",
     },
   ];
