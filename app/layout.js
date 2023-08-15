@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
-        <div className="max-w-[1240px] m-auto justify-center"></div>
       </body>
     </html>
   );

@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       <Slideshow />
-      <Blog />
+      <div className="max-w-[1240px]  m-auto ">
+        <Blog />
+      </div>
     </main>
   );
 }
