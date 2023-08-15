@@ -1,0 +1,10 @@
+Let's explore the key folders  in this structure:
+
+1. node_modules/: This folder contains all the project's dependencies installed via npm.
+
+2. public/: This is where you can place static assets like images, fonts, and other files that are directly served to the client. For example, if you have an image named logo.png, you can access it in your code using /logo.png.
+
+3. app/: This is the App Router.
+
+4. pages/: This is a special folder where each file represents a route in your application. For example, if you create a file named index.js inside this folder, it will be associated with the root route /. The Next.js router will automatically route incoming requests to these files.
+
