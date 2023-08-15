@@ -52,7 +52,7 @@ export default function Slideshow() {
     ),
   };
   return (
-    <div className="w-full h-screen">
+    <div className="w-full">
       <Fade {...zoomInProperties}>
         {fadeImages.map((slideImage, index) => (
           <div

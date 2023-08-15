@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Blog() {
   return (
-    <div className="container mt-20    m-auto  items-center justify-between">
+    <div className="container   m-auto  items-center justify-between">
       <h2 className="text-center my-10">Blog Page</h2>
       <div className="grid  grid-cols-3 grid-rows-4 gap-2">
         {blogData.map((blog) => (
@@ -23,9 +23,13 @@ export default function Blog() {
             <div class="p-5">
               <a href={`blog/${blog.slug}`}>
                 <h5 class="mb-2  {styles.red} font-bold tracking-tight text-gray-900 dark:text-white">
-                  {blog.title ?? ""}
+                  {blog.title ?? ""}{" "}
+                 
                 </h5>
               </a>
+ <div className="float-end text-end text-xs font-light">
+                    Date: {blog.date}
+                  </div>
               <Link
                 href={`blog/${blog.slug}`}
                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

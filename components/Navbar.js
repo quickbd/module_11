@@ -43,7 +43,7 @@ const Navbar = () => {
             <Link href="/blog">Blog</Link>
           </li>
           <li className="p-4">
-            <Link href="/contact-us">Contact</Link>
+            <Link href="/blog">Post</Link>
           </li>
         </ul>
 
@@ -80,7 +80,7 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/contact-us">Contact</Link>
+              <Link href="/blog">Post</Link>
             </li>
           </ul>
         </div>
